@@ -1,0 +1,65 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  canvas {
+    display: block;
+  }
+  
+  .button {
+   background-color: #000000;
+    border: none;
+    color: white;
+    padding:2px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius:5%;
+   
+    cursor: pointer;
+  }
+  
+  
+  .unclicked{
+     background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding:2px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+   border-radius: 70%;
+   
+    cursor: pointer;
+  }
+  
+  .clicked{
+     background-color: #008c57; /* Green */
+    border: none;
+    color: white;
+    padding:2px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+   border-radius: 70%;
+   
+    cursor: pointer;
+  }
+  
+  
+  
+  .undisplayed {
+    display: none;
+  }
+  
+  .displayed {
+    display: block;
+    font-size: 20px;
+    background-color:#000000;
+    color: white;
+  }
+
+  .carDiv{
+    width: 75px;
+    height: 40px;
+  }
